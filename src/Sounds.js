@@ -4,7 +4,7 @@ import './Sounds.css'
 import Sound from './Sound'
 
 const Sounds = () => {
-    const sounds: {
+    const soundsList: {
         one: {
             name: "Aids",
             path: "./sounds/Aids.mp3"
@@ -170,9 +170,42 @@ const Sounds = () => {
             path: "./sounds/You pass butter.mp3"
         }
     }
+    
     return (
         <div className="sound-body grid-x grid-padding-x small-up-2 medium-up-3 large-up-6">
-
+            <Sound sound={soundsList.one}/>
+            <Sound sound={soundsList.two}/>
+            <Sound sound={soundsList.three}/>
+            <Sound sound={soundsList.four}/>
+            <Sound sound={soundsList.five}/>
+            <Sound sound={soundsList.six}/>
+            <Sound sound={soundsList.seven}/>
+            <Sound sound={soundsList.eight}/>
+            <Sound sound={soundsList.nine}/>
+            <Sound sound={soundsList.ten}/>
+            <Sound sound={soundsList.eleven}/>
+            <Sound sound={soundsList.twelve}/>
+            <Sound sound={soundsList.thirteen}/>
+            <Sound sound={soundsList.fourteen}/>
+            <Sound sound={soundsList.fifteen}/>
+            <Sound sound={soundsList.sixteen}/>
+            <Sound sound={soundsList.seventeen}/>
+            <Sound sound={soundsList.eighteen}/>
+            <Sound sound={soundsList.nineteen}/>
+            <Sound sound={soundsList.twenty}/>
+            <Sound sound={soundsList.twentyOne}/>
+            <Sound sound={soundsList.twentyTwo}/>
+            <Sound sound={soundsList.twentyThree}/>
+            <Sound sound={soundsList.twentyFour}/>
+            <Sound sound={soundsList.twentyFive}/>
+            <Sound sound={soundsList.twentySix}/>
+            <Sound sound={soundsList.twentySeven}/>
+            <Sound sound={soundsList.twentyEight}/>
+            <Sound sound={soundsList.twentyNine}/>
+            <Sound sound={soundsList.thirty}/>
+            <Sound sound={soundsList.thirtyOne}/>
+            <Sound sound={soundsList.thirtyTwo}/>
+            <Sound sound={soundsList.thirtyThree}/>
         </div>
     )
 }
