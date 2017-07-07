@@ -5,135 +5,168 @@ import Sound from './Sound'
 
 const Sounds = () => {
     const sounds: {
-        aids: {
+        one: {
+            name: "Aids",
             path: "./sounds/Aids.mp3"
         },
 
-        mystery: {
+        two: {
+            name: "Another Quick Mystery",
             path: "./sounds/And now another quick mystery.mp3"
         },
 
-        news: {
+        three: {
+            name: "That's the Way the News Goes",
             path: "./sounds/And that's the way the news goes.mp3"
         },
 
-        burger: {
+        four: {
+            name: "Burger Time",
             path: "./sounds/Burger time.mp3"
         },
 
-        mating: {
+        five: {
+            name: "Challenging Mating Season",
             path: "./sounds/Challenging mating season.mp3"
         },
 
-        fresh: {
+        six: {
+            name: "Fresh Start",
             path: "./sounds/Fresh Start.mp3"
         },
 
-        schwifty: {
+        seven: {
+            name: "Get Swchifty",
             path: "./sounds/Get Schwifty.mp3"
         },
 
-        grass: {
+        eight: {
+            name: "Grass Tastes Bad",
             path: "./sounds/Graaaass tastes bad.mp3"
         },
 
-        say: {
+        nine: {
+            name: "Say That All the Time",
             path: "./sounds/Haha yeah say that all the time.mp3"
         },
 
-        head: {
+        ten: {
+            name: "Head Bent Over",
             path: "./sounds/Head bent over.mp3"
         },
 
-        sack: {
+        eleven: {
+            name: "Hit the Sack",
             path: "./sounds/Hit the sack jack.mp3"
         },
 
-        how: {
+        twelve: {
+            name: "How Did I Get Here",
             path: "./sounds/How did I get here.mp3"
         },
 
-        ants: {
+        thirteen: {
+            name: "Ants-In-My-Eyes-Johnson",
             path: "./sounds/I'm ants in my eyes Johnson.mp3"
         },
 
-        meeseeks: {
+        fourteen: {
+            name: "I'm Mr. Meeseeks",
             path: "./sounds/I'm Mr Meeseeks.mp3"
         },
 
-        coffee: {
+        fifteen: {
+            name: "Stay Away From the Coffee Machine",
             path: "./sounds/Just stay away from the coffee machine.mp3"
         },
 
-        lick: {
+        sixteen: {
+            name: "Lick My Balls",
             path: "./sounds/Lick Lick Lick My Balls.mp3"
         },
 
-        fall: {
+        seventeen: {
+            name: "Morty Falls",
             path: "./sounds/Morty Fall.mp3"
         },
 
-        sewer: {
+        eighteen: {
+            name: "No Jumping In the Sewer",
             path: "./sounds/No jumpin in the sewer.mp3"
         },
 
-        geez: {
+        nineteen: {
+            name: "Oh Geez Rick",
             path: "./sounds/Oh geez rick.mp3"
         },
 
-        love: {
+        twenty: {
+            name: "Oh I Love My Strawberry Smiggles",
             path: "./sounds/Oh I love my.mp3"
         },
 
-        hell: {
+        twentyOne: {
+            name: "Oh What the Hell?!?",
             path: "./sounds/Oooooh what the hell.mp3"
         },
 
-        ricky: {
+        twentyTwo: {
+            name: "Rick Ticky Tabby",
             path: "./sounds/Ricky Ticky Tabby Biatch.mp3"
         },
 
-        rubber: {
+        twentyThree: {
+            name: "Rubber Baby Babby Bunkers",
             path: "./sounds/Rubber baby babby bunkers.mp3"
         },
 
-        slum: {
+        twentyFour: {
+            name: "Slum Slum Slippy Dop",
             path: "./sounds/Slum slum slippy dop.mp3"
         },
 
-        what: {
+        twentyFive: {
+            name: "So What If Your Life Was Meaningless",
             path: "./sounds/So what if.mp3"
         },
 
-        mans: {
+        twentySix: {
+            name: "That's Usually the Man's Job",
             path: "./sounds/That's usually the man's job.mp3"
         },
 
-        delicious: {
+        twentySeven: {
+            name: "That Shit is Delicious",
             path: "./sounds/This Shit is Delicious.mp3"
         },
 
-        somersault: {
+        twentyEight: {
+            name: "Uh Oh Somersault Jump",
             path: "./sounds/Uh oh somersault jump.mp3"
         },
 
-        inside: {
+        twentyNine: {
+            name: "Way Up Inside",
             path: "./sounds/Waaaaay up inside.mp3"
         },
 
-        laDe: {
+        thirty: {
+            name: "Well Laa Dee Da",
             path: "./sounds/Well la de da.mp3"
         },
 
-        wubbalubba: {
+        thirtyOne: {
+            name: "Wubbalubbadubdub!!",
             path: "./sounds/Wubbalubbadubdub.mp3"
         },
 
-        run: {
+        thirtyTwo: {
+            name: "You Can Run",
             path: "./sounds/You can run but you cant hide.mp3"
         },
 
-        butter: {
+        thirtyThree: {
+            name: "You Pass Butter",
             path: "./sounds/You pass butter.mp3"
         }
     }
