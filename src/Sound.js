@@ -17,3 +17,5 @@ const Sound = (props) => {
         </div>
     )
 }
+
+export default Sound
