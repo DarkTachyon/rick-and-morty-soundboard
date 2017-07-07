@@ -6,8 +6,14 @@ const Requests = () => {
     return (
         <div className="requests">
             <div className="">
-                <input type="text"/>
-                <button>submit</button>
+                <input type="text" name="" placeHolder="Have a request?" />
+                <button
+                type="button"
+                name="button"
+                className="success button"
+                >
+                    Submit
+                </button>
             </div>
             <ul>
 
